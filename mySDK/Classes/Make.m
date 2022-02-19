@@ -9,6 +9,6 @@
 #import "Work.h"
 @implementation Make
 +(void)make{
-
+    NSLog(@"====make======");
 }
 @end

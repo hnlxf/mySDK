@@ -10,7 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Work : NSObject
--(void)work;
++(void)work;
++ (NSString*)getDeviceType;
 @end
 
 NS_ASSUME_NONNULL_END

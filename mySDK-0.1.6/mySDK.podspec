@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "mySDK"
-  s.version = "0.1.4"
+  s.version = "0.1.6"
   s.summary = "A short description of mySDK."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"lxf"=>"hnkflxf123@163.com"}
