@@ -8,5 +8,5 @@
 #import "Work.h"
 
 @implementation Work
-
+- (void)work{}
 @end

@@ -8,5 +8,6 @@
 #import "Make.h"
 
 @implementation Make
-
++(void)make{
+}
 @end
