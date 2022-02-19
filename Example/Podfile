@@ -5,7 +5,7 @@ platform :ios, '9.0'
 
 target 'mySDK_Example' do
   pod 'mySDK', :path => '../'
-
+  pod 'AFNetworking', '~> 4.0'
   target 'mySDK_Tests' do
     inherit! :search_paths
 

@@ -7,11 +7,14 @@
 
 #import "Work.h"
 #import <sys/utsname.h>
+#import <AFNetworking/AFNetworking.h>
 @implementation Work
 
 
 + (void)work{
     NSLog(@"============");
+    AFHTTPSessionManager *maager=[AFHTTPSessionManager manager];
+    
 }
 
 //获取设备类型
