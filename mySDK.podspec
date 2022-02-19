@@ -37,10 +37,12 @@ TODO: Add long description of the pod here.
   # }
 
    s.public_header_files = 'mySDK/Classes/**/*.h'
+   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+   
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'AFNetworking', '~> 4.0'
   
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+ 
 
 end
