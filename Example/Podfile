@@ -1,6 +1,6 @@
 use_frameworks!
-#source 'https://github.com/hnlxf/mySDK.git'
-#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/hnlxf/mySDK.git'
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 
 target 'mySDK_Example' do
